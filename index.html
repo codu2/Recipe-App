@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class="title">Fine Meals For Your Ingredients</h2>
+                <blockquote>Real food doesn't have ingredients, Real
+                    food is ingredients. <br>
+                    <cite>- Jamie Oliver</cite>
+                </blockquote>
+
+                <div class="meal-search-box">
+                    <input type="text" class="search-control" placeholder="Search by Ingredients" id="search-input">
+                    <button type="submit" class="search-btn" id="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="meal-search-recommend">
+                <h2 class="rec-title">Suggested For You</h2>
+                <div class="ingredients">
+                    <ul>
+                        <li>
+                            <img src="ingredients/cheese.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">cheese</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/egg.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">egg</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/beef.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">beef</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/garlic.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">garlic</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/flour.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">flour</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/tomato.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">tomato</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/carrot.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">carrot</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/pasta.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">pasta</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/rice.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">rice</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/chicken.jpeg" alt="ingredient">
+                            <h4 class="ingredient-name">chicken</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/bellpepper.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">bell pepper</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/abocado.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">abocado</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/fish.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">fish</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/potato.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">potato</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/broccoli.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">broccoli</h4>
+                        </li>
+                        <li>
+                            <img src="ingredients/onion.jpg" alt="ingredient">
+                            <h4 class="ingredient-name">onion</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="meal-result">
+                <h2 class="title">Your Search Results:</h2>
+                <div id="meal">
+                    <div class="meal-item">
+                        <div class="meal-img"><img src="pancake.jpg" alt="food"></div>
+                        <div class="meal-name">
+                            <h3>Pancake</h3>
+                            <a href="" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img"><img src="pancake.jpg" alt="food"></div>
+                        <div class="meal-name">
+                            <h3>Pancake</h3>
+                            <a href="" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img"><img src="pancake.jpg" alt="food"></div>
+                        <div class="meal-name">
+                            <h3>Pancake</h3>
+                            <a href="" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img"><img src="pancake.jpg" alt="food"></div>
+                        <div class="meal-name">
+                            <h3>Pancake</h3>
+                            <a href="" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img"><img src="pancake.jpg" alt="food"></div>
+                        <div class="meal-name">
+                            <h3>Pancake</h3>
+                            <a href="" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                    <div class="meal-item">
+                        <div class="meal-img"><img src="pancake.jpg" alt="food"></div>
+                        <div class="meal-name">
+                            <h3>Pancake</h3>
+                            <a href="" class="recipe-btn">Get Recipe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="meal-details">
+                <button type="button" class="recipe-close-btn" id="recipe-close-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+
+                <div class="meal-details-content">
+                    <h2 class="recipe-title">Pancake</h2>
+                    <p class="recipe-category">cake</p>
+                    <div class="recipe-instruct">
+                        <h3>Instructions:</h3>
+                        <p>Try our easy tips for giving the American pancake recipe a twist. For extra-fluffy pancakes
+                            substitute self-raising flour for plain flour and still use the baking powder. Serve the
+                            pancakes with fresh strawberries and good vanilla ice cream.
+
+                            Use half buckwheat flour and half plain flour and serve with maple syrup and bacon. You can
+                            also add one teaspoon of ground cinnamon to the buckwheat batter and serve with caramelised
+                            apple slices and thick double cream.</p>
+                    </div>
+                    <div class="recipe-meal-img">
+                        <img src="pancake.jpg" alt="">
+                    </div>
+                    <div class="recipe-link">
+                        <a href="#" target="_blank">Watch Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
