@@ -102,8 +102,8 @@ ul {
     margin: 1rem 0;
     padding: 2rem 0;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
     background: rgba(160, 206, 203, 0.1);
 }
 
@@ -278,6 +278,9 @@ ul {
         margin-left: auto;
         margin-right: auto;
     }
+     .meal-search-recommend .ingredients ul {
+        gap: 2rem;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -291,6 +294,9 @@ ul {
     }
     .meal-details {
         width: 700px;
+    }
+    .meal-search-recommend .ingredients ul {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
